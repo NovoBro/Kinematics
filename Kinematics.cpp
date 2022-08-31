@@ -1,11 +1,11 @@
 // Equations:
-// v = vi + a * t
-// x = ((v + vi) / 2 ) * t
-// x = vi * t + a * t * t / 2
-// v * v = vi * vi + 2 * a * x
-// ymax = (vi * sin(angle)) * (vi * sin(angle)) / 2 / ay
-// t = 2 * vi * sin(angle) / ay
-// xFinal = vi * vi * sin( 2 * angle ) / ay
+// v = v_i + a * t
+// x = ((v + v_i) / 2 ) * t
+// x = v_i * t + a * t * t / 2
+// v * v = v_i * v_i + 2 * a * x
+// ymax = (v_i * sin(angle)) * (v_i * sin(angle)) / 2 / a_y
+// t = 2 * v_i * sin(angle) / a_y
+// xFinal = v_i * v_i * sin( 2 * angle ) / a_y
 
 // To Do:
 // Replace repetitive code with loops
